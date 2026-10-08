@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Studently",
+    "slug": "Studently",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/studently-logo.png",
+    "scheme": "studently",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "icon": "./assets/expo.icon"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/studently-logo.png",
+        "backgroundColor": "#FFD21F"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.yohan7jo.Studently"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#208AEF",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 76
+        }
+      ],
+      "expo-status-bar"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "85392aa5-406c-417e-9549-fe598af676ed"
+      }
+    }
+  }
+}
