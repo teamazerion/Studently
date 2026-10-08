@@ -19,9 +19,10 @@
       "package": "com.yohan7jo.Studently"
     },
     "web": {
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
-    },
+  "output": "static",
+  "favicon": "./assets/images/favicon.png",
+  "baseUrl": "/Studently"
+},
     "plugins": [
       "expo-router",
       [
